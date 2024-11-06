@@ -28,7 +28,7 @@ def find_roots(a, b, c):
         imaginary_part = math.sqrt(-discriminant) / (2 * a)
         return f"Roots are complex: Root1 = {real_part} + {imaginary_part}i, Root2 = {real_part} - {imaginary_part}i"
 
-# Taking input from the user
+
 a = float(input("Enter coefficient a: "))
 b = float(input("Enter coefficient b: "))
 c = float(input("Enter coefficient c: "))
