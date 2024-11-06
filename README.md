@@ -37,5 +37,4 @@ c = float(input("Enter coefficient c: "))
 if a == 0:
     print("The coefficient 'a' cannot be zero in a quadratic equation.")
 else:
-    # Finding and printing the roots
     print(find_roots(a, b, c))
